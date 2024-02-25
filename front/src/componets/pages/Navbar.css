@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+:root {
+--theme-bg-color: #3761af;
+--theme-color: white;
+
+
+}
+* { 
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+.pb-4{
+  padding-bottom: 1px !important;
+}
+
+ .py-4 {
+   padding-top: 1px  !important;
+ }
+.navbar{
+  -webkit-box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand img{
+  width: 100px;
+  height: auto;
+
+}
+.navbar-brand span{
+  letter-spacing: 2px;
+  font-family: var(--lg-font);
+}
+.nav-link:hover{
+  color: var(--pink)!important;
+}
+.nav-item{
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
+}
+
+
+@media (max-width: 700px) {
+  .item.search input {
+    display: none;
+  }
+  .menu-icon {
+    display:block;
+  }
+  .detail,.logo .text {
+    display:none;
+
+  }
+
+
+}
+
+
+
+/* Style the input container */
+#reg  .input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  border: 1px solid rgb(69, 31, 31);
+  padding: 5px;
+}
+
+/* Style the form icons */
+#reg .icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* Style the input fields */
+#reg .input-field {
+  width: 100%;
+  padding: 10px;
+ 
+}
+
+ #reg  .input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+#reg  .btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+#reg  .btn:hover {
+  opacity: 1;
+}
+
+
+#newnav a {
+  font-size:14px;
+  font-weight:700
+}
+#newnav .superNav {
+  font-size:13px;
+}
+#newnav .form-control {
+  outline:none !important;
+  box-shadow: none !important;
+}
+@media screen and (max-width:540px){
+  #newnav .centerOnMobile {
+    text-align:center
+  }
+}
+
+
+
+
+
+
+
+

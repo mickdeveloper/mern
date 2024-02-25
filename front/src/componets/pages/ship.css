@@ -1,0 +1,8 @@
+#shipping {
+  background: rgb(111, 68, 148);
+  min-height: 100vh;
+}
+
+#shipping .container{
+  margin-top: 80px;
+}
